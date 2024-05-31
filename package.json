@@ -4,11 +4,12 @@
   "description": "Prueba tecnica para MASTER",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node --env-file=.env src/index.js"
   },
   "author": "Diego Sanchez",
   "license": "ISC",
   "dependencies": {
+    "axios": "^1.7.2",
     "cors": "^2.8.5",
     "express": "^4.19.2",
     "morgan": "^1.10.0"
